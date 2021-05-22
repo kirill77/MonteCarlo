@@ -41,6 +41,6 @@ struct SphereSurfaceDistribution : public DistributionsTest
     static rtvector<T, 3> generate(const rtvector<T, 2>& in01)
     {
         nvAssert(s_bSphereSurfaceTestPassed);
-        return makevector<T, 3>(0);
+        return makeVector<T, 3>(0);
     }
 };
