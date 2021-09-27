@@ -66,7 +66,7 @@ void DistributionsTest::testSphereVolumeDistribution()
     for (NvU32 uSphere = 0; uSphere < N_SPHERES; ++uSphere)
     {
         nTotalSpheres += nSpherePoints[uSphere];
-        if (nSpherePoints[uSphere] < 54 || nSpherePoints[uSphere] > 76)
+        if (nSpherePoints[uSphere] < 53 || nSpherePoints[uSphere] > 76)
         {
             nvAssert(false);
             s_bSphereVolumeTestPassed = false;
