@@ -4,6 +4,8 @@
 #include "RNGUniform.h"
 #include "RNGSobol.h"
 
+using namespace kirill;
+
 void DistributionsTest::testSphereVolumeDistribution()
 {
     const NvU32 N_POINTS_PER_DIM = 32;
